@@ -2,5 +2,5 @@
 
 Download [https://github.com/c-sky/buildroot](https://github.com/c-sky/buildroot)
 
-See board/csky/xxx/readme.txt.
+See board/csky/xxx/readme.txt for build.
 
