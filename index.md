@@ -1,4 +1,4 @@
-## buildroot 介绍
+# buildroot 介绍
 
 buildroot官网 [https://buildroot.org](https://buildroot.org)
 
@@ -8,7 +8,7 @@ Buildroot 是一个简单，高效，易于使用的嵌入式系统交叉编译�
 
 我们以ubuntu16.04为例，请确认已安装build-essential等基础开发包，如果缺少组件，buildroot会有提示。网上资料较多，这里不再赘述
 
-### 获取源码
+## 获取源码
 在　[https://github.com/c-sky/buildroot](https://github.com/c-sky/buildroot)　里下载最新发布源码包
 
 ### 编译
