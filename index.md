@@ -12,7 +12,7 @@ Buildroot 是一个简单，高效，易于使用的嵌入式系统交叉编译�
 在　[https://github.com/c-sky/buildroot](https://github.com/c-sky/buildroot)　里下载最新发布源码包
 
 ## 编译
-进入buildroot目录后，以gx6605s开发板为例，执行以下2条命令：<br>
+以gx6605s开发板为例，执行以下2条命令：<br>
 $ make csky_gx6605s_defconfig<br>
 $ make<br>
 然后等待完成，buildroot会自动构建编译环境，编译内核和应用程序，建立根文件系统，生成最终镜像．<br>
