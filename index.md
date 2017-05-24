@@ -10,7 +10,7 @@ C-SKY使用buildroot向用户发布linux
 我们以ubuntu16.04为例，请确认已安装build-essential等基础开发包，如果缺少组件，buildroot会有提示。网上资料较多，这里不再赘述
 
 ## 在ubuntu下，只需以下几步：
-$ git clone git@github.com:c-sky/buildroot.git
+$ git clone git@github.com:c-sky/buildroot.git<br>
 $ cd buildroot<br>
 $ make csky_gx6605s_defconfig<br>
 $ make<br>
