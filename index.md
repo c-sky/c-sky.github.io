@@ -13,7 +13,7 @@ $ make csky_gx6605s_defconfig<br>
 $ make<br>
 
 ## 编译问题汇总
-必须使用64位ubuntu系统<br>
+请使用64位ubuntu系统<br>
 对于中国大陆用户，如果遇到不能下载的软件包，可以到 https://github.com/c-sky/tools/tree/master/dl <br>
 下寻找，并copy到buildroot/dl目录下，即可。
 
