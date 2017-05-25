@@ -21,3 +21,6 @@ $ make<br>
 按照buildroot的规范，我们准备了readme.txt, 例如：<br>
 board/csky/gx6605s/readme.txt<br>
 
+
+## gx6605s开发板介绍
+
