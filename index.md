@@ -20,4 +20,4 @@ $ make<br>
 ## README
 按照buildroot的规范，我们准备了readme.txt, 例如：<br>
 board/csky/gx6605s/readme.txt<br>
-board/csky/sc8925/readme.txt<br>
+
