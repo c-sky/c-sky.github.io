@@ -22,5 +22,5 @@ $ make<br>
 board/csky/gx6605s/readme.txt<br>
 
 
-## gx6605s开发板介绍
+## C-SKY buildroot 开发板
 
