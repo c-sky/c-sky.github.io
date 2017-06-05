@@ -1,3 +1,11 @@
+# C-SKY CPU Linux Arch Porting
+
+你好，这里的核心项目是 linux/arch/csky<br>
+对，就是在Linux 实现 C-SKY CPU www.c-sky.com 指令集的移植，就像linux/arch下的其他CPU，x86, arc, arm, mips ...<br>
+为了让大家更容易的体验 linux/arch/csky，我们使用buildroot发布，这样大家可以直接拿到整个linux系统的开发环境而不是单单的linux内核。<br>
+
+用户轻松的体验，使我们关注的，也希望您给 arch/csky多提宝贵意见。
+
 # C-SKY buildroot 介绍
 
 C-SKY使用buildroot向用户发布linux
