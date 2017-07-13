@@ -12,7 +12,7 @@ C-SKY使用buildroot向用户发布linux
 包括： 内核， 根文件系统， 各种调试工具， 软件包。 <br>
 并遵循 https://buildroot.org 规范。
 
-## 以gx6605s开发板为例， 在ubuntu 16.04 64位上，只需4步：
+## 以gx6605s开发板为例， 在ubuntu 16.04 64位上，编译只需4步：
 $ git clone git@github.com:c-sky/buildroot.git<br>
 $ cd buildroot<br>
 $ make csky_gx6605s_defconfig<br>
