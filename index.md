@@ -12,7 +12,7 @@ C-SKY使用buildroot向用户发布linux
 包括： 内核， 根文件系统， 各种调试工具， 软件包。 <br>
 并遵循 https://buildroot.org 规范。
 
-## 在ubuntu 16.04 64位上，只需4步：
+## 以gx6605s开发板为例， 在ubuntu 16.04 64位上，只需4步：
 $ git clone git@github.com:c-sky/buildroot.git<br>
 $ cd buildroot<br>
 $ make csky_gx6605s_defconfig<br>
@@ -26,6 +26,10 @@ $ make<br>
 按照buildroot的规范，我们准备了readme.txt, 例如：<br>
 board/csky/gx6605s/readme.txt<br>
 
+# gx6605s开发板，　快速体验
+## 准备启动U盘，（它包含了内核根文件系统）
+你可以在gitlab上下载最新编译好的bin，例如： https://gitlab.com/c-sky/buildroot/-/jobs/22301421/artifacts/file/output/images/usb.img
+dd if=usb.img of=/dev/sdb bs=8192 (usb.img包含２个分区，一定要烧写整个U盘)
 
-## C-SKY buildroot 开发板
+## 连接HDMI，插上U盘和USB鼠标键盘，插上一根micro-USB 5V电源线
 
