@@ -28,7 +28,7 @@ board/csky/gx6605s/readme.txt<br>
 
 # gx6605s开发板，　快速体验
 ## 准备启动U盘，（它包含了内核根文件系统）
-你可以在gitlab上下载最新编译好的bin，例如： https://gitlab.com/c-sky/buildroot/-/jobs/22301421/artifacts/file/output/images/usb.img
+你可以在gitlab上下载最新编译好的bin，例如： https://gitlab.com/c-sky/buildroot/-/jobs/22301421/artifacts/file/output/images/usb.img<br>
 dd if=usb.img of=/dev/sdb bs=8192 (usb.img包含２个分区，一定要烧写整个U盘)
 
 ## 连接HDMI，插上U盘和USB鼠标键盘，插上一根micro-USB 5V电源线
