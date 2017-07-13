@@ -1,8 +1,9 @@
 # Linux内核 arch/csky 项目介绍
 
-你好，这里的核心项目是 linux/arch/csky<br>
-对，就是在Linux 支持 C-SKY 指令集 （www.c-sky.com） CPU，就像linux内核arch目录下的其他CPU体系结构: x86, arc, arm, mips ...<br>
-为了让大家更容易的体验 linux/arch/csky，我们使用 buildroot 发布。<br>
+项目目标：<br>
+在Linux 内核里支持 C-SKY 指令集 （www.c-sky.com） CPU <br>
+就像linux内核arch目录下的其他CPU体系结构: x86, arc, arm, mips ...<br>
+为了让大家更容易的体验 csky-linux，我们准备了buildroot。<br>
 
 # C-SKY buildroot 介绍
 
