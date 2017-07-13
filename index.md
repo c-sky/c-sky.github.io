@@ -7,8 +7,6 @@
 
 # C-SKY buildroot 介绍
 
-C-SKY使用buildroot向用户发布linux
-
 目的：以最少的时间， 构建完整的 C-SKY linux开发环境。 <br>
 包括： 内核， 根文件系统， 各种调试工具， 软件包。 <br>
 并遵循 https://buildroot.org 规范。
