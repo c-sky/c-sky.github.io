@@ -10,4 +10,6 @@ C-SKY Linux Arch 介绍:
 开发板:
 ---
 
+![Github](images/gx6605s_0.png "csky_gx6605s")
+
 * [gx6605s 开发板介绍](boards/gx6605s.md)
