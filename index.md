@@ -10,7 +10,7 @@ C-SKY Linux Arch 介绍:
 基于 C-SKY CPU 的开发板:
 ===
 
-<img src="images/gx6605s_0.gif" alt="gx6605s" />
+<img src="images/gx6605s_0.gif" alt="gx6605s" /> <img src="http://www.nationalchip.com/static/web/img/logo.png" alt="NationalChip" />
 
 
 * [gx6605s 开发板介绍](boards/gx6605s.md)
