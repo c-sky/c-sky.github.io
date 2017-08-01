@@ -28,5 +28,5 @@ github.com/c-sky/buildroot 的 master 分支是通过 [gitlab.com/c-sky](https:/
   - [内核的调试](docs/kernel-debug.md)
   - [应用程序调试](docs/app-debug.md)
 * 进阶
-  - [使用O0编译和调试内核](docs/kernel-O0.md)
+  - [使用-O0编译和调试内核](docs/kernel-O0.md)
 
