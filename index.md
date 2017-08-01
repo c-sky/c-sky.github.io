@@ -13,20 +13,20 @@ github.com/c-sky/buildroot 的 master 分支是通过 [gitlab.com/c-sky](https:/
 基于 C-SKY CPU 的开发板:
 ---
 
-**[诛仙剑开发板介绍](boards/gx6605s.md)** | <img src="images/gx6605s_0.gif" alt="gx6605s" /> | <img src="http://www.nationalchip.com/static/web/img/logo.png" alt="NationalChip" />
+**[诛仙剑开发板介绍](docs/gx6605s.md)** | <img src="images/gx6605s_0.gif" alt="gx6605s" /> | <img src="http://www.nationalchip.com/static/web/img/logo.png" alt="NationalChip" />
 
 上手指南：
 ---
 
-* [快速开始]
+* 快速开始
   - [开发环境准备](docs/quick-start.md)
   - [编译](docs/quick-compile.md)
   - [运行](docs/quick-run.md)
-* [基础]
+* 基础
   - [buildroot功能介绍](docs/buildroot.md)
   - [启动&设备树介绍](docs/boot-dts.md)
   - [内核的调试](docs/kernel-debug.md)
   - [应用程序调试](docs/app-debug.md)
-* [进阶]
+* 进阶
   - [使用O0编译和调试内核](docs/kernel-O0.md)
 
