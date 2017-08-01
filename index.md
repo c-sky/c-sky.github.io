@@ -8,9 +8,21 @@ C-SKY Linux Arch 介绍:
 >为了方便大家体验 C-SKY Linux 我们准备了 [buildroot](https://buildroot.org) ，buildroot使用方便，功能强大．用它可以方便的构建 linux 嵌入式系统开发环境．虽然我们初步將 C-SKY 体系结构提交至buildroot-master，但想体验最新 gx6605s 开发板，还是要从 [github.com/c-sky/buildroot](https://github.com/c-sky/buildroot) 下载．github/buildroot 的 master 代码是经过 gitlab.com/c-sky CI 测试通过再同步上去的，是有保障的，所以我们推荐您直接使用 github/buildroot 上的 master 最新代码．后续我们也会更新buildroot官网master的代码．
 
 基于 C-SKY CPU 的开发板:
-===
+---
 
-<img src="images/gx6605s_0.gif" alt="gx6605s" /> <img src="http://www.nationalchip.com/static/web/img/logo.png" alt="NationalChip" />
+* [诛仙剑开发板介绍](boards/gx6605s.md) | <img src="images/gx6605s_0.gif" alt="gx6605s" /> <img src="http://www.nationalchip.com/static/web/img/logo.png" alt="NationalChip" />
 
+上手指南：
+---
 
-* [gx6605s 开发板介绍](boards/gx6605s.md)
+* [快速开始]
+  - [开发环境准备](docs/quick-start.md)
+  - [编译](docs/quick-compile.md)
+  - [运行](docs/quick-run.md)
+* [基础]
+  - [buildroot功能介绍](docs/buildroot.md)
+  - [启动&设备树介绍](docs/boot-dts.md)
+  - [内核的调试](docs/kernel-debug.md)
+  - [应用程序调试](docs/app-debug.md)
+* [进阶]
+  - [使用O0编译和调试内核](docs/kernel-O0.md)
