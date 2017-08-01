@@ -5,7 +5,10 @@ C-SKY Linux Arch 介绍:
 
 >C-SKY Linux Arch 项目的目标是在 linux 内核里支持 C-SKY 体系结构，现在 linux/arch/csky 目录仍然单独维护在 [github](https://github.com/c-sky/csky-linux) 仓库里，计划在2017年底提交至 linux 主线．以 arch/csky 这个目录单独建立仓库维护，而不是整个内核源码树，目的是使自己仓库轻量话，方便跟踪 linux-master ．使用的时候將它拷贝到 linux 内核官方源码 arch 目录下即可，这也是得益于Linux内核良好的组织结构．
 
->为了方便大家体验 C-SKY Linux 我们准备了 [buildroot](https://buildroot.org) ，buildroot使用方便，功能强大．用它可以方便的构建 linux 嵌入式系统开发环境．虽然我们初步將 C-SKY 体系结构提交至buildroot-master，但想体验最新 gx6605s 开发板，还是要从 [github.com/c-sky/buildroot](https://github.com/c-sky/buildroot) 下载．github/buildroot 的 master 代码是经过 gitlab.com/c-sky CI 测试通过再同步上去的，是有保障的，所以我们推荐您直接使用 github/buildroot 上的 master 最新代码．后续我们也会更新buildroot官网master的代码．
+>为了方便大家体验 C-SKY Linux 我们准备了 [buildroot](https://buildroot.org) ，buildroot使用方便，功能强大．用它可以方便的构建 linux 嵌入式系统开发环境．虽然我们初步將 C-SKY 体系结构提交至buildroot-master，但体验诛仙剑开发板，请从 [github.com/c-sky/buildroot](https://github.com/c-sky/buildroot) 下载最新代码．
+github.com/c-sky/buildroot 的 master 分支是通过 [gitlab.com/c-sky](https://gitlab.com/c-sky) CI 自动化测试后才同步上去的，所以我们推荐您直接使用 master 最新代码．同时我们也会持续更新 buildroot 官网的主干代码，感谢 buildroot 的 gitlab 自动化集成方案．
+
+>[uClibc-ng](https://uclibc-ng.org) 是我们的重点推荐的C库，它的特点是小巧，精悍．非常契合 C-SKY Linux Iot 的小目标．
 
 基于 C-SKY CPU 的开发板:
 ---
@@ -26,3 +29,4 @@ C-SKY Linux Arch 介绍:
   - [应用程序调试](docs/app-debug.md)
 * [进阶]
   - [使用O0编译和调试内核](docs/kernel-O0.md)
+
