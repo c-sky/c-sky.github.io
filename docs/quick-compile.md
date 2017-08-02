@@ -7,6 +7,9 @@ make csky_gx6605s_defconfig
 make
 ```
 
-**csky_gx6605s_defconfig** 配置文件是使用串口的，如果想像照片里那样使用 framebuffer 终端，请使用 **csky_gx6605s_fbcon_defconfig** 配置文件.
+csky_gx6605s_defconfig | 使用串口作为默认终端
+csky_gx6605s_fbcon_defconfig | 使用 framebuffer console 作为默认终端，就像照片里那样.
+
+请按自己的需要进行选择
 
 [运行](quick-run.md)
