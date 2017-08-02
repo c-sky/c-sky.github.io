@@ -13,11 +13,11 @@ usb.img | 由 boot.vfat 和 rootfs.ext2/ext4 共同组成的U盘完整镜像，�
 ---
 在ubuntu 16.04下有两种方法
 
-* 使用 Startup Disk Creator 图形化软件，选择 usb.img 作为 Source disc image，在 Disk to use 中选择U盘，然后点击右下角 Make Startup Disk，开始烧录．
+* 使用 Startup Disk Creator 烧录U盘，选择 usb.img 作为 Source disc image，在 Disk to use 中选择U盘，然后点击右下角 Make Startup Disk，开始烧录．
 
 <img src="/images/prepare_usb_drive.png" alt="uart" />
 
-* 使用 dd 命令，在 bash 执行:
+* 使用 dd 命令烧录U盘，在 bash 执行:
 
 ```bash
 sudo umount /dev/sdb;
