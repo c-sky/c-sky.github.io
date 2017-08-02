@@ -19,7 +19,7 @@ github.com/c-sky/buildroot 的 master 分支是通过 [gitlab.com/c-sky](https:/
 ---
 
 * 快速开始
-  - [开发环境准备](docs/quick-start.md)
+  - [开发环境准备](docs/prepare.md)
   - [编译](docs/quick-compile.md)
   - [运行](docs/quick-run.md)
 * 基础
