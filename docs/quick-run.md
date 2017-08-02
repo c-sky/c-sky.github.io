@@ -39,9 +39,7 @@ sync;
 ```bash
 sudo minicom -D /dev/ttyUSB0
 ```
+  minicom设置为115200-8N1 关闭流控制 (ctrl+A 键再按 O 键，选择第三行 Serial port setup 进行设置)
 
-minicom设置为115200-8N1 关闭流控制 (ctrl+A 键再按 O 键，选择第三行 Serial port setup 进行设置)
 
-* 如果你是 csky_gx6605s_fbcon_defconfig 配置文件，那么如下图，插上电源 USB键盘 HDMI，就可以了．
-
-参考 [诛仙剑开发板介绍](gx6605s.md)
+* 如果你是 csky_gx6605s_fbcon_defconfig 配置文件，插上电源 USB键盘 HDMI，就可以用了，参考 [诛仙剑开发板介绍](gx6605s.md)
