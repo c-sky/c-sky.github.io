@@ -30,7 +30,7 @@ sync;
 运行
 ---
 
-* csky_gx6605s_defconfig 配置文件，使用串口作为默认终端，將U盘插在板子上，將micro-usb线连接在COM口，如下图所示:
+* **csky_gx6605s_defconfig** 配置文件，使用串口作为默认终端，將U盘插在板子上，將micro-usb线连接在COM口，如下图所示:
 
 <img src="/images/gx6605s_2.jpg" alt="uart" />
 
@@ -42,4 +42,4 @@ sudo minicom -D /dev/ttyUSB0
   minicom设置为115200-8N1 关闭流控制 (ctrl+A 键再按 O 键，选择第三行 Serial port setup 进行设置)
 
 
-* 如果你是 csky_gx6605s_fbcon_defconfig 配置文件，插上电源 USB键盘 HDMI，就可以用了，参考 [诛仙剑开发板介绍](gx6605s.md)
+* **csky_gx6605s_fbcon_defconfig** 配置文件，使用 HDMI framebuffer Console，插上 micro-usb 电源 USB键盘 HDMI，就可以用了，请参考 [诛仙剑开发板介绍](gx6605s.md)
