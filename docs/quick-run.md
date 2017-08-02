@@ -11,12 +11,13 @@ usb.img | 由 boot.vfat 和 rootfs.ext2/ext4 共同组成的U盘完整镜像，�
 
 制作U盘镜像
 ---
-* 在ubuntu 16.04下有两种方法
-  - 使用 Startup Disk Creator 图形化软件，选择 usb.img 作为 Source disc image，在 Disk to use 中选择U盘，然后点击右下角 Make Startup Disk，开始烧录．
+在ubuntu 16.04下有两种方法
+
+* 使用 Startup Disk Creator 图形化软件，选择 usb.img 作为 Source disc image，在 Disk to use 中选择U盘，然后点击右下角 Make Startup Disk，开始烧录．
 
 <img src="/images/prepare_usb_drive.png" alt="uart" />
 
-  - 使用 dd 命令，在 bash:
+* 使用 dd 命令，在 bash 执行:
 
 ```bash
 sudo umount /dev/sdb;
@@ -29,19 +30,18 @@ sync;
 运行
 ---
 
-* 如果你是 csky_gx6605s_defconfig 配置文件，它使用串口作为终端．
-  - 在板子上插上U盘，將micro-usb线连接在COM口，如下图所示:
+* csky_gx6605s_defconfig 配置文件，使用串口作为默认终端，將U盘插在板子上，將micro-usb线连接在COM口，如下图所示:
 
 <img src="/images/gx6605s_2.jpg" alt="uart" />
 
-  - 板上集成了usb转串口芯片，ubuntu 16.04 默认支持，使用 minicom 执行以下命令：
+  板上集成了usb转串口芯片，ubuntu 16.04 自带驱动，可以直接使用 minicom:
 
 ```bash
 sudo minicom -D /dev/ttyUSB0
 ```
 
-串口设置为115200-8N1 关闭流控制，minicom 中按 ctrl+A 键再按 O 键，选择第三想 Serial port setup 进行设置．
+minicom设置为115200-8N1 关闭流控制 (ctrl+A 键再按 O 键，选择第三行 Serial port setup 进行设置)
 
 * 如果你是 csky_gx6605s_fbcon_defconfig 配置文件，那么如下图，插上电源 USB键盘 HDMI，就可以了．
 
-<img src="/images/gx6605s_1.jpg" alt="uart" />
+参考 [诛仙剑开发板介绍](gx6605s.md)
