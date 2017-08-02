@@ -32,7 +32,7 @@ sync;
 
 * csky_gx6605s_defconfig 配置文件，使用串口作为默认终端，將U盘插在板子上，將micro-usb线连接在COM口，如下图所示:
 
-<img src="/images/gx6605s_2.jpg" alt="uart" height="480" />
+<img src="/images/gx6605s_2.jpg" alt="uart" />
 
   板上集成了usb转串口芯片，ubuntu 16.04 自带驱动，可以直接使用 minicom:
 
