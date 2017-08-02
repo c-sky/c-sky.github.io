@@ -34,3 +34,5 @@ before_script:
 以上就是 docker-debian 中安装的软件包，docker 用户可以参考它完成对 docker 的配置．
 
 对gitlab docker 完整的配置是 buildroot 源码根目录下的 [.gitlab-ci.yml](https://github.com/c-sky/buildroot/blob/master/.gitlab-ci.yml) 文件
+
+[开始编译](quick-compile.md)
