@@ -3,7 +3,13 @@
 
 ubuntu 16.04
 ---
-buildroot编译需要在Linux环境下，我们以ubuntu 16.04为例，安装完成后，请先安装 build-essential，git，等软件包．buildroot在编译过程中，如果遇到缺少的系统软件包，它会停止编译，并且给出提示．
+我们以ubuntu 16.04为例，请安装以下软件包
+
+```bash
+sudo apt-get install  build-essential git lzip ncurses-dev minicom
+```
+
+buildroot在编译过程中，如果遇到缺少的系统软件包，它会停止编译，并给出提示．
 
 buildroot的编译过程，会从各个第三方网站下载软件包到 dl 目录下，所以编译 buildroot 时要保证 Internet 连接．对于大陆用户，由于众所周知的原因，可能会遇到个别软件包不能下载，这时您可以选择翻墙，或者到 [github.com/c-sky/tools/dl](https://github.com/c-sky/tools/tree/master/dl) 找一下，我將部分软件包放在这里供大家下载，请把它们拷贝到你 buildroot 目录下的 dl 目录里即可．
 
