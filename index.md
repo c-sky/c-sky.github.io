@@ -13,7 +13,7 @@ github.com/c-sky/buildroot 的 master 分支是通过 [gitlab.com/c-sky](https:/
 基于 C-SKY CPU 的开发板:
 ---
 
-**[诛仙剑开发板介绍](docs/gx6605s.md)** | <img src="images/gx6605s_0.gif" alt="gx6605s" /> | <img src="http://www.nationalchip.com/static/web/img/logo.png" alt="NationalChip" />
+**[诛仙剑开发板介绍](docs/gx6605s.md)** | <img src="images/gx6605s_0.gif" alt="gx6605s" /> | <img src="http://www.c-sky.com/resources/web/img/logo.jpg" alt="C-SKY" />
 
 上手指南：
 ---
