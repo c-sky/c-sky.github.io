@@ -10,6 +10,10 @@ github.com/c-sky/buildroot 的 master 分支是通过 [gitlab.com/c-sky](https:/
 
 * [uClibc-ng](https://uclibc-ng.org) 是我们重点推荐的C库，它的特点是小巧，精悍．非常契合 C-SKY Linux Iot 的小目标．
 
+论坛
+---
+* [点击这里进入论坛](https://github.com/c-sky/forum/issues)
+
 基于 C-SKY CPU 的开发板:
 ---
 
