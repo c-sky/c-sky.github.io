@@ -1,7 +1,7 @@
 编译真的很简单: 下载源码，选择配置，make!
 
 ```bash
-git clone git@github.com:c-sky/buildroot.git
+git clone https://github.com/c-sky/buildroot.git
 cd buildroot
 make csky_gx6605s_defconfig
 make
