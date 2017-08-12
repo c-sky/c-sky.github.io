@@ -35,4 +35,5 @@ before_script:
 
 对gitlab docker 完整的配置是 buildroot 源码根目录下的 [.gitlab-ci.yml](https://github.com/c-sky/buildroot/blob/master/.gitlab-ci.yml) 文件
 
-[开始编译](quick-compile.md)
+[返回gx6605s.md](gx6605s.md)
+

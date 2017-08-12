@@ -23,3 +23,5 @@ $ ../host/usr/bin/csky-linux-gdb -x ../../board/nationalchip/gx66xx/gdbinit ../b
 ```
 
 注意 gdbinit 的 IP 和 Port 要和DebugServer里的一致.
+
+[返回gx6605s.md](gx6605s.md)

@@ -43,3 +43,5 @@ sudo minicom -D /dev/ttyUSB0
 
 
 * **csky_gx6605s_fbcon_defconfig** 配置文件，使用 HDMI framebuffer Console，插上 micro-usb 电源 USB键盘 HDMI，就可以用了，请参考 [诛仙剑开发板介绍](gx6605s.md)
+
+[返回gx6605s.md](gx6605s.md)
