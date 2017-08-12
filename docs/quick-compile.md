@@ -13,3 +13,5 @@ csky_gx6605s_fbcon_defconfig | 使用 framebuffer console 作为默认终端，�
 请按自己的需要进行选择
 
 [运行](quick-run.md)
+
+[返回gx6605s.md](gx6605s.md)
