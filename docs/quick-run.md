@@ -17,15 +17,15 @@ usb.img | 由 boot.vfat 和 rootfs.ext2/ext4 共同组成的U盘完整镜像，�
 
 <img src="/images/prepare_usb_drive.png" alt="uart" />
 
-* 使用 dd 命令烧录U盘，在 bash 执行:
+* 高阶linux用户，可以使用 dd 命令暴力烧录U盘，在 bash 执行:
 
 ```bash
-sudo umount /dev/sdb;
 sudo dd if=usb.img of=/dev/sdb bs=8192;
 sync;
+sync执行结束立即拔掉盘，别犹豫！！
 ```
 
-注意 sdb (也可能是sdc或sdd等等)，这是整个U盘，而不是一个分区，所以执行这个命令千万小心，不要操作到你的系统盘．显然使用图形化的专用烧录工具更安全．
+注意 sdb 是整个U盘，而不是分区 (也可能是sdc或sdd等等)。执行这个命令要特别小心，不要操作到你的系统盘。
 
 运行
 ---
