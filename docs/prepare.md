@@ -1,9 +1,9 @@
 开发环境准备
 ===
 
-ubuntu 16.04
+64位 ubuntu 16.04
 ---
-我们以ubuntu 16.04为例，请安装以下软件包
+我们以64位 ubuntu为例，请安装以下软件包
 
 ```bash
 sudo apt-get install  build-essential git lzip ncurses-dev minicom
