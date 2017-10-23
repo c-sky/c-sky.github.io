@@ -16,4 +16,4 @@ C-SKY Linux Arch 介绍:
 友情链接:
 ---
 
-* [hellogcc](https://hellogcc.org/)
+* [HelloGCC](https://hellogcc.org/)
