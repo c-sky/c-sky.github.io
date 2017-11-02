@@ -1,4 +1,4 @@
-编译真的很简单: 下载源码，选择配置，make!
+* 编译真的很简单:
 
 ```bash
 git clone https://github.com/c-sky/buildroot.git
@@ -6,11 +6,10 @@ cd buildroot
 make csky_gx6605s_defconfig
 make
 ```
+* 一共有两个配置可供选择:
 
-csky_gx6605s_defconfig | 使用串口作为默认终端
-csky_gx6605s_fbcon_defconfig | 使用 framebuffer console 作为默认终端，就像照片里那样.
-
-请按自己的需要进行选择
+csky_gx6605s_defconfig | 使用串口作为终端
+csky_gx6605s_fbcon_defconfig | 使用HDMI作为终端
 
 [运行](quick-run.md)
 
