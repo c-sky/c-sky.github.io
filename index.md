@@ -13,4 +13,4 @@ C-SKY Linux Arch 介绍:
 | **[诛仙剑开发板介绍](docs/gx6605s.md)**<br>**[点此购买](https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-13250088290.6.4b1f9628jKW8o8&id=556322544984)** | <img src="images/gx6605s_0.gif" alt="gx6605s" /> | <img src="http://www.nationalchip.com/static/web/img/logo.png" alt="NationalChip" /> |
 
 
-**友情链接:** [HelloGCC](https://hellogcc.org/)
+**友情链接:** [HelloGCC](https://hellogcc.org/) [填坑网 DebugDump Forum](https://debugdump.com)
