@@ -15,6 +15,8 @@ C-SKY Linux Arch 介绍:
 
 **友情链接:**
 
-* [HelloGCC](https://hellogcc.org/)
+* [泰晓科技](http://www.tinylab.org)
+
+* [HelloGCC](https://hellogcc.org)
 
 * [填坑网 DebugDump Forum](https://debugdump.com)
