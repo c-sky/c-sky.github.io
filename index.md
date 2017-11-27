@@ -15,6 +15,12 @@ C-SKY Linux Arch 介绍:
 
 **友情链接:**
 
+* [Buildroot](https://buildroot.org)
+
+* [OpenADK](https://openadk.org)
+
+* [uClibc-ng](https://uclibc-ng.org)
+
 * [泰晓科技](http://www.tinylab.org)
 
 * [HelloGCC](https://hellogcc.org)
