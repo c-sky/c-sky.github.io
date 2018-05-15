@@ -19,7 +19,7 @@ For clearer presentation our CPU cores, I give you a comparison with arm32-cores
     $ make qemu_csky_ck810_uclibc_bt_defconfig
     $ make
 ```
-The developement repos of gcc, binutils, glibc, uclibc-ng, qemu is here: [github.com/c-sky](https://github.com/c-sky)
+The development repo of "gcc, binutils, glibc, uclibc-ng, qemu" is here: [github.com/c-sky](https://github.com/c-sky)
 
 ### Quick start just with kernel compile:
 
