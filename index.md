@@ -1,9 +1,8 @@
 # Linux C-SKY Introduction:
 
-Current C-SKY linux porting support these CPU cores:
-ck610 ck807 ck807f ck807v ck807vf ck810 ck810f ck810v ck810vf ck860 ck860f ck860v ck860vf
+Current C-SKY linux porting support these CPU cores: ck610 ck807 ck807f ck807v ck807vf ck810 ck810f ck810v ck810vf ck860 ck860f ck860v ck860vf
 
-For clearer presentation our CPU cores, here is a comparison with ARM cores:
+For clearer presentation our CPU cores, I give you a comparison with ARM cores:
 
   * ck807 >= A7 (ck610 is replaced by ck807 on sales)
   * ck810 >= A9
@@ -29,5 +28,5 @@ See here: [github.com/c-sky/csky-linux](https://github.com/c-sky/csky-linux)
 Advertisement:
 ---
 
-| **[诛仙剑 Development Board](docs/gx6605s.md)**<br>**[Only 39RMB](https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-13250088290.6.4b1f9628jKW8o8&id=556322544984)** | <img src="images/gx6605s_0.gif" alt="gx6605s" /> | <img src="http://www.nationalchip.com/static/web/img/logo.png" alt="NationalChip" /> |
+| **[诛仙剑 Development Board](docs/gx6605s.md)**<br>**[Only 39RMB](https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-13250088290.6.4b1f9628jKW8o8&id=556322544984)** |
 
