@@ -2,7 +2,7 @@
 
 Current C-SKY linux porting support these CPU cores: ck610 ck807 ck807f ck807v ck807vf ck810 ck810f ck810v ck810vf ck860 ck860f ck860v ck860vf
 
-For clearer presentation our CPU cores, I give you a comparison with ARM cores:
+For clearer presentation our CPU cores, I give you a comparison with arm32-cores:
 
   * ck807 >= A7 (ck610 is replaced by ck807 on sales)
   * ck810 >= A9
