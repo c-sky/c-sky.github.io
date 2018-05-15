@@ -4,9 +4,9 @@ Current C-SKY linux porting support these CPU cores: ck610 ck807 ck807f ck807v c
 
 For clearer presentation our CPU cores, I give you a comparison with arm32-cores:
 
-  * ck807 >= A7 (ck610 is replaced by ck807 on sales)
-  * ck810 >= A9
-  * ck860 >= A10
+  * ck807 >>> A7 (ck610 is replaced by ck807 on sales)
+  * ck810 >>> A9
+  * ck860 >>> A10
   * "f" means Float Point Co-processor
   * "v" means VDSP Co-processor, (Just like ARM NEON)
   * SMP supported
