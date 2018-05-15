@@ -1,14 +1,33 @@
-C-SKY Linux Arch 介绍:
-===
+# Linux C-SKY Introduction:
 
-* C-SKY CPU体系结构由杭州中天微系统有限公司开发。目前支持的CPU有: CK807(CK610) CK810 CK860
+Current C-SKY linux porting support these CPU cores:
+ck610 ck807 ck807f ck807v ck807vf ck810 ck810f ck810v ck810vf ck860 ck860f ck860v ck860vf
 
-* 为了方便大家体验 C-SKY Linux 我们准备了 [buildroot](https://buildroot.org) ，buildroot 使用方便，功能强大．快速构建 linux 嵌入式系统开发环境．在 [github.com/c-sky/buildroot](https://github.com/c-sky/buildroot) 下载最新C-SKY buildroot 代码．同时我们也会持续向 buildroot 提交patch同步，感谢buildroot带来的便捷，高效。
+For clearer presentation our CPU cores, here is a comparison with ARM cores:
 
-* [uClibc-ng](https://uclibc-ng.org) 是我们重点推荐的C库，它的特点是小巧，精悍．非常契合 C-SKY Linux Iot 的小目标．
+  * ck807 >= A7 (ck610 is replaced by ck807 on sales)
+  * ck810 >= A9
+  * ck860 >= A10
+  * "f" means Float Point Co-processor
+  * "v" means VDSP Co-processor, (Just like ARM NEON)
+  * SMP supported
 
-基于 C-SKY CPU 的开发板:
+### Quick start with Buildroot
+
+```sh
+    $ git clone https://gitlab.com/c-sky/buildroot.git
+    $ cd buildroot
+    $ make qemu_csky_ck810_uclibc_bt_defconfig
+    $ make
+```
+The developement repos of gcc, binutils, glibc, uclibc-ng, qemu is here: [github.com/c-sky](https://github.com/c-sky)
+
+### Quick start just with kernel compile:
+
+See here: [github.com/c-sky/csky-linux](https://github.com/c-sky/csky-linux)
+
+Advertisement:
 ---
 
-| **[诛仙剑开发板介绍](docs/gx6605s.md)**<br>**[点此购买](https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-13250088290.6.4b1f9628jKW8o8&id=556322544984)** | <img src="images/gx6605s_0.gif" alt="gx6605s" /> | <img src="http://www.nationalchip.com/static/web/img/logo.png" alt="NationalChip" /> |
+| **[诛仙剑 Development Board](docs/gx6605s.md)**<br>**[Only 39RMB](https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-13250088290.6.4b1f9628jKW8o8&id=556322544984)** | <img src="images/gx6605s_0.gif" alt="gx6605s" /> | <img src="http://www.nationalchip.com/static/web/img/logo.png" alt="NationalChip" /> |
 
