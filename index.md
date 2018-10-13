@@ -19,6 +19,7 @@ https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/tree/arch/cs
 ### Quick Start with Qemu smp
 
 https://gitlab.com/c-sky/buildroot/-/jobs/107754332/artifacts/browse/output/images/
+
 -------------------
 
     output/images/
