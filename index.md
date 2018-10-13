@@ -14,11 +14,12 @@ abiv2: 807 810 860
   * SMP supported
 
 Now, we are in linux-next:
-https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/tree/arch/csky
+
+[https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/tree/arch/csky]
 
 ### Quick Start with Qemu smp
 
-https://gitlab.com/c-sky/buildroot/-/jobs/107754332/artifacts/browse/output/images/
+[https://gitlab.com/c-sky/buildroot/-/jobs/107754332/artifacts/browse/output/images/]
 
     output/images/
     ├── csky_buildroot_version.txt (Contain version details)
