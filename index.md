@@ -1,18 +1,23 @@
 # Linux C-SKY Introduction:
 
-Current C-SKY linux porting support these CPU cores: ck610 ck807 ck807f ck807v ck807vf ck810 ck810f ck810v ck810vf ck860 ck860f ck860v ck860vf
+There are abiv1 & abiv2 supported in linux/arch/csky:
 
-For clearer presentation our CPU cores, I give you a comparison with arm32-cores:
+abiv1: 610 (no sale)
+abiv2: 807 810 860
 
-  * ck807 >>> A7 (ck610 is replaced by ck807 on sales)
-  * ck810 >>> A9
-  * ck860 >>> A10
-  * "f" means Float Point Co-processor
-  * "v" means VDSP Co-processor, (Just like ARM NEON)
+  * 807 => A7 (ck610 is replaced by ck807 on sales)
+  * 810 => A9
+  * 860 => A12/A17/A15
+  * "f" means FPU Instruction set
+  * "v" means VDSP Instruction set
+  * "t" means Trust Execute Environment
   * SMP supported
 
-### Quick start with Buildroot
+Now, we are in linux-next:
+https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/tree/arch/csky
 
+### Quick start with qemu
+https://gitlab.com/c-sky/buildroot/-/jobs/107754332/artifacts/browse/output/images/
 ```sh
     $ git clone https://gitlab.com/c-sky/buildroot.git
     $ cd buildroot
@@ -20,10 +25,6 @@ For clearer presentation our CPU cores, I give you a comparison with arm32-cores
     $ make
 ```
 The development repo of "gcc, binutils, glibc, uclibc-ng, qemu" is here: [github.com/c-sky](https://github.com/c-sky)
-
-### Quick start just with kernel compile:
-
-See here: [github.com/c-sky/csky-linux](https://github.com/c-sky/csky-linux)
 
 ### Development Boards:
 ---
