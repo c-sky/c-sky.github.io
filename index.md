@@ -20,8 +20,6 @@ https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/tree/arch/cs
 
 https://gitlab.com/c-sky/buildroot/-/jobs/107754332/artifacts/browse/output/images/
 
--------------------
-
     output/images/
     ├── csky_buildroot_version.txt (Contain version details)
     ├── qemu_csky_ck860_4.18_glibc_defconfig_330c911e41b0f638583e101b639966b20b4e6acd.tar.xz
@@ -30,10 +28,9 @@ https://gitlab.com/c-sky/buildroot/-/jobs/107754332/artifacts/browse/output/imag
     ├── rootfs.cpio.xz
     └── vmlinux.xz
 
-How to Run
-==========
+How to Run:
 
-Download all files above.
+(Download all files above)
 
 ```bash
   $ xz -d vmlinux.xz
