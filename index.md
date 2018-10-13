@@ -32,12 +32,14 @@ How to Run
 
 Download all files above.
 
+```bash
   $ xz -d vmlinux.xz
   $ mkdir toolchain
   $ cd toolchain
   $ tar -Jxf ../qemu_csky_ck860_4.18_glibc_defconfig_330c911e41b0f638583e101b639966b20b4e6acd.tar.xz
   $ cd ..
   $ toolchain/csky-qemu/bin/qemu-system-csky2 -kernel vmlinux -dtb qemu_smp.dtb -nographic -M mp860 -smp 4
+```
 
 The development repo of "gcc, binutils, glibc, uclibc-ng, qemu" is here: [github.com/c-sky](https://github.com/c-sky)
 
