@@ -28,9 +28,7 @@ https://gitlab.com/c-sky/buildroot/-/jobs/107754332/artifacts/browse/output/imag
     ├── rootfs.cpio.xz
     └── vmlinux.xz
 
-How to Run:
-
-(Download all files above)
+How to Run: (Download all files above)
 
 ```bash
   $ xz -d vmlinux.xz
