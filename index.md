@@ -19,7 +19,7 @@ Now, we are in linux-next:
 
 ### Quick Start with Qemu smp
 
-[https://gitlab.com/c-sky/buildroot/-/jobs/107754332/artifacts/browse/output/images/]()
+[https://gitlab.com/c-sky/buildroot/-/jobs/107754332/artifacts/browse/output/images/](https://gitlab.com/c-sky/buildroot/-/jobs/107754332/artifacts/browse/output/images/)
 
     output/images/
     ├── csky_buildroot_version.txt (Contain version details)
