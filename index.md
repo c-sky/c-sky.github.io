@@ -16,14 +16,29 @@ abiv2: 807 810 860
 Now, we are in linux-next:
 https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/tree/arch/csky
 
-### Quick start with qemu
-https://gitlab.com/c-sky/buildroot/-/jobs/107754332/artifacts/browse/output/images/
-```sh
-    $ git clone https://gitlab.com/c-sky/buildroot.git
-    $ cd buildroot
-    $ make qemu_csky_ck810_uclibc_bt_defconfig
-    $ make
-```
+Result of the build
+-------------------
+
+    output/images/
+    ├── csky_buildroot_version.txt (Contain version details)
+    ├── qemu_csky_ck860_4.18_glibc_defconfig_330c911e41b0f638583e101b639966b20b4e6acd.tar.xz
+    ├── linux-4.18.4.patch.xz
+    ├── qemu.dtb
+    ├── rootfs.cpio.xz
+    └── vmlinux.xz
+
+How to Run
+==========
+
+Download all files above.
+
+  $ xz -d vmlinux.xz
+  $ mkdir toolchain
+  $ cd toolchain
+  $ tar -Jxf ../qemu_csky_ck860_4.18_glibc_defconfig_330c911e41b0f638583e101b639966b20b4e6acd.tar.xz
+  $ cd ..
+  $ toolchain/csky-qemu/bin/qemu-system-csky2 -kernel vmlinux -dtb qemu_smp.dtb -nographic -M mp860 -smp 4
+
 The development repo of "gcc, binutils, glibc, uclibc-ng, qemu" is here: [github.com/c-sky](https://github.com/c-sky)
 
 ### Development Boards:
