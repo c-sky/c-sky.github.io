@@ -13,9 +13,9 @@ abiv2: 807 810 860
   * "t" means Trust Execute Environment
   * SMP supported
 
-Now, we are in linux-next:
+Now, we are in linux mainline:
 
-[https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/tree/arch/csky](https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/tree/arch/csky)
+[https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/arch/csky](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/arch/csky)
 
 ### Quick Start with Qemu smp
 
