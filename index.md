@@ -14,7 +14,7 @@ abiv2: 807 810 860
   * "t" means Trust Execute Environment
   * SMP supported
 
-We've got in linux mainline:[https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/arch/csky](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/arch/csky)
+We've got into linux mainline: [https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/arch/csky](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/arch/csky)
 
 ### Quick Start with our newest buildroot releases
 
