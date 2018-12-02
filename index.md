@@ -2,10 +2,11 @@
 
 There are abiv1 & abiv2 supported in linux/arch/csky:
 
-abiv1: 610 (no sale)
+abiv1: 610
+
 abiv2: 807 810 860
 
-  * 807 => A7 (ck610 is replaced by ck807 on sales)
+  * 807 => A7 (610 is replaced by 807 on sales)
   * 810 => A9
   * 860 => A12/A17/A15
   * "f" means FPU Instruction set
