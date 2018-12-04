@@ -22,4 +22,4 @@ We've got into linux mainline: [https://git.kernel.org/pub/scm/linux/kernel/git/
 
 ### Development Boards:
 
-| **[诛仙剑 Development Board](docs/gx6605s.md)**<br>**[Only 39RMB](https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-13250088290.6.4b1f9628jKW8o8&id=556322544984)** | <img src="images/gx6605s_0.gif" alt="gx6605s" /> | 
+| **[Gx6605s development board](docs/gx6605s.md)**<br>**[39RMB](https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-13250088290.6.4b1f9628jKW8o8&id=556322544984)** | <img src="images/gx6605s_0.gif" alt="gx6605s" /> | 
